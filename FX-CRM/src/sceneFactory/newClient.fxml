@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sceneFactory.NewClient">
+   <children>
+      <Pane layoutY="1.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="507.0" layoutY="79.0" text="שם מלא" />
+            <Label layoutX="526.0" layoutY="192.0" text="כתובת" />
+            <Label layoutX="529.0" layoutY="131.0" text="טלפון" />
+            <Label layoutX="248.0" layoutY="79.0" text="תעודת זהות" />
+            <Label layoutX="231.0" layoutY="131.0" text="מספר חשבונית" />
+            <Button fx:id="okButtom" layoutX="231.0" layoutY="283.0" mnemonicParsing="false" onMouseClicked="#okButtomClick" text="אישור" />
+            <Button fx:id="cancelButtom" layoutX="137.0" layoutY="283.0" mnemonicParsing="false" onMouseClicked="#cancelButtomclick" text="ביטול" />
+            <TextField fx:id="name" layoutX="344.0" layoutY="75.0" />
+            <TextField fx:id="phone" layoutX="344.0" layoutY="127.0" />
+            <TextField fx:id="id" layoutX="59.0" layoutY="75.0" />
+            <TextField fx:id="address" layoutX="344.0" layoutY="188.0" />
+            <TextField fx:id="invoiceNumber" layoutX="59.0" layoutY="127.0" />
+            <Label layoutX="202.0" layoutY="14.0" text="הזנת לקוח חדש" textAlignment="CENTER">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="asAgreement" layoutX="137.0" layoutY="228.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="62.0" text="הסכם " />
+            <Label layoutX="248.0" layoutY="184.0" text="תאריך לידה" />
+            <TextField fx:id="dateOfBirth" layoutX="63.0" layoutY="180.0" />
+            <CheckBox fx:id="asMedicalcCertificate" layoutX="218.0" layoutY="232.0" mnemonicParsing="false" text="אישור רפואי" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
