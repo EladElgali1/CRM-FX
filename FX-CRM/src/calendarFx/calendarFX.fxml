@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import impl.org.controlsfx.skin.*?>
+<?import com.calendarfx.view.page.*?>
+<?import org.controlsfx.glyphfont.*?>
+<?import com.calendarfx.view.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calendarFx.CalendarFX">
+   <children>
+      <MonthPage fx:id="monthPage" layoutX="21.0" layoutY="28.0" onMouseClicked="#dayPickClick" prefHeight="314.0" prefWidth="288.0" />
+      <HBox prefHeight="100.0" prefWidth="200.0" />
+      <ScrollPane layoutX="372.0" layoutY="37.0" prefHeight="349.0" prefWidth="221.0">
+         <content>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <DayView fx:id="dayView" prefHeight="1682.0" prefWidth="173.0" />
+                  <TimeScaleView />
+               </children>
+            </HBox>
+         </content>
+      </ScrollPane>
+   </children>
+</Pane>

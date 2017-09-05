@@ -26,6 +26,9 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="json-simple-1.1.1" level="project" />
-    <orderEntry type="library" name="docs" level="project" />
+    <orderEntry type="library" name="calendarfx-recurrence-8.4.0" level="project" />
+    <orderEntry type="library" name="calendarfx-view-8.4.0" level="project" />
+    <orderEntry type="library" name="controlsfx-8.40.11" level="project" />
+    <orderEntry type="library" name="jcalendar-1.4" level="project" />
   </component>
 </module>

@@ -1,5 +1,7 @@
 package sceneFactory;
 
+
+import calendarFx.CalendarFX;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -48,17 +50,21 @@ public class SceneFactory {
              return  choosePlan.getMainScene();
          }
          if(type.equals("calendarManagement")){
-             CalendarManagement calendarManagement =new CalendarManagement();
+
+             CalendarFX calendar =new CalendarFX();
              Parent root = null;
              try {
-                 root = FXMLLoader.load(calendarManagement.getClass().getResource("calendarManagement.fxml"));
+                 root = FXMLLoader.load(calendar.getClass().getResource("calendarFx.fxml"));
              } catch (IOException e) {
                  e.printStackTrace();
              }
 
 
              scene=new Scene(root,800,500);
+
              return  scene;
+
+
 
          }
 

@@ -13,9 +13,10 @@ public class Controller {
     }
 
     public void calendarManagementClick(){
-        data =DataTransfer.getInstance();
+       /* data =DataTransfer.getInstance();
         data.setAction("calendarManagement");
-        Main.setStringProperty("calendarManagement");
+        */
+        Main.setStringProperty("calendar");
     }
 
 }
