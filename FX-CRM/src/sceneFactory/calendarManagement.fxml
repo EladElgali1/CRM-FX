@@ -1,14 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="sceneFactory.CalendarManagement"
-            prefHeight="400.0" prefWidth="600.0">
-
+<?import javafx.scene.text.*?>
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sceneFactory.CalendarManagement">
+   <children>
+       <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+          <children>
+            <Pane layoutY="57.0" prefHeight="200.0" prefWidth="177.0" />
+            <Pane layoutX="178.0" layoutY="40.0" prefHeight="235.0" prefWidth="416.0">
+               <children>
+                    <Button fx:id="sunWeek2" layoutY="72.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="monWeek2" layoutX="58.0" layoutY="72.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="tueWeek2" layoutX="116.0" layoutY="72.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="wedWeek2" layoutX="174.0" layoutY="72.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="thuWeek2" layoutX="232.0" layoutY="72.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="friWeek2" layoutX="290.0" layoutY="72.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="satWeek2" layoutX="348.0" layoutY="72.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="satWeek3" layoutX="348.0" layoutY="102.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="friWeek3" layoutX="290.0" layoutY="102.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="thuWeek3" layoutX="232.0" layoutY="102.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="wedWeek3" layoutX="174.0" layoutY="102.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="tueWeek3" layoutX="116.0" layoutY="102.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="monWeek3" layoutX="58.0" layoutY="102.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="sunWeek3" layoutY="102.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="sunWeek4" layoutY="130.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="monWeek4" layoutX="58.0" layoutY="130.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="tueWeek4" layoutX="116.0" layoutY="130.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="wedWeek4" layoutX="174.0" layoutY="130.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="thuWeek4" layoutX="232.0" layoutY="130.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="friWeek4" layoutX="290.0" layoutY="130.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="satWeek4" layoutX="348.0" layoutY="130.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="satWeek5" layoutX="348.0" layoutY="160.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="friWeek5" layoutX="290.0" layoutY="160.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="thuWeek5" layoutX="232.0" layoutY="160.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="wedWeek5" layoutX="174.0" layoutY="160.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="tueWeek5" layoutX="116.0" layoutY="160.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="monWeek5" layoutX="58.0" layoutY="160.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="sunWeek5" layoutY="160.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="sunWeek1" layoutY="44.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="monWeek1" layoutX="58.0" layoutY="42.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="tueWeek1" layoutX="116.0" layoutY="42.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="wedWeek1" layoutX="174.0" layoutY="42.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="thuWeek1" layoutX="232.0" layoutY="42.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="friWeek1" layoutX="290.0" layoutY="42.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Button fx:id="satWeek1" layoutX="348.0" layoutY="42.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                    <Label fx:id="sundayLabel" layoutY="15.0" prefHeight="25.0" prefWidth="58.0" text="ראשון" textAlignment="JUSTIFY" wrapText="true">
+                        <font>
+                        <Font name="Arial Bold" size="14.0" />
+                        </font>
+                    </Label>
+                    <Label fx:id="mondayLabel" layoutX="58.0" layoutY="15.0" prefHeight="25.0" prefWidth="58.0" text="שני" textAlignment="JUSTIFY" wrapText="true">
+                        <font>
+                        <Font name="Arial Bold" size="14.0" />
+                        </font>
+                    </Label>
+                    <Label fx:id="tuesdayLabel" layoutX="116.0" layoutY="15.0" prefHeight="25.0" prefWidth="58.0" text="שלישי" textAlignment="JUSTIFY" wrapText="true">
+                        <font>
+                        <Font name="Arial Bold" size="14.0" />
+                        </font>
+                  </Label>
+                  <Label fx:id="wednesdayLabel" layoutX="174.0" layoutY="15.0" prefHeight="25.0" prefWidth="58.0" text="רביעי" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="thursdayLabel" layoutX="232.0" layoutY="15.0" prefHeight="25.0" prefWidth="58.0" text="חמישי" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="fridayLabel" layoutX="290.0" layoutY="15.0" prefHeight="25.0" prefWidth="58.0" text="שישי" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="saturdayLabel" layoutX="348.0" layoutY="15.0" prefHeight="25.0" prefWidth="58.0" text="שבת" textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Arial Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="satWeek6" layoutX="348.0" layoutY="190.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                  <Button fx:id="friWeek6" layoutX="290.0" layoutY="190.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                  <Button fx:id="thuWeek6" layoutX="232.0" layoutY="190.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                  <Button fx:id="wedWeek6" layoutX="174.0" layoutY="190.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                  <Button fx:id="tueWeek6" layoutX="116.0" layoutY="190.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                  <Button fx:id="monWeek6" layoutX="58.0" layoutY="190.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+                  <Button fx:id="sunWeek6" layoutY="190.0" mnemonicParsing="false" opacity="0.4" prefHeight="30.0" prefWidth="58.0" />
+               </children>
+            </Pane>
+            <Pane layoutX="182.0" layoutY="8.0" prefHeight="30.0" prefWidth="407.0">
+               <children>
+                    <Button fx:id="previousMonthLabel1" layoutX="14.0" layoutY="1.0" mnemonicParsing="false" onAction="#previousMonth" text="&lt;" />
+                    <Label fx:id="monthLabel" layoutX="38.0" layoutY="1.0" prefHeight="25.0" prefWidth="68.0">
+                        <font>
+                            <Font name="System Bold" size="15.0" />
+                        </font>
+                    </Label>
+                    <Button fx:id="nextMonthLabel1" layoutX="106.0" layoutY="1.0" mnemonicParsing="false" onAction="#nextMonth" text="&gt;" />
+                    <Button fx:id="previousYearLabel" layoutX="211.0" layoutY="3.0" mnemonicParsing="false" onAction="#previousYear" text="&lt;" />
+                    <Button fx:id="nextYearLabel" layoutX="316.0" layoutY="3.0" mnemonicParsing="false" onAction="#nextYear" text="&gt;" />
+                    <Label fx:id="yearLabel" layoutX="236.0" layoutY="1.0" prefHeight="25.0" prefWidth="80.0">
+                        <font>
+                            <Font name="System Bold" size="15.0" />
+                        </font>
+                    </Label>
+               </children>
+            </Pane>
+          </children>
+       </Pane>
+   </children>
 </AnchorPane>
